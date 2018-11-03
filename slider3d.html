@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="localiser les vélos à louer sur une carte de Lyon, 
+        visualisez les disponibilités et réservez le votre.">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="slider3d.css">
+        <title>slider en POO Javascript</title>
+    </head>
+
+    <body>
+
+        <section id="slideshow">
+            <h2>Slider explicatif</h2>
+
+            <div id="slider" class="slider">
+                <img id="slide" class="slide" src="img/bike-rental-1.jpg" alt="slider LOCaBIKE"/>
+                <div class="btn-container">
+                    <a href="" id="prevBtn" class=" btn prevBtn" onclick="return prev()"> </a>
+                    <a href="" id="pauseBtn" class="btn pauseBtn" onclick="return playPause()"> </a>
+                    <a href="" id="nextBtn" class="btn nextBtn" onclick="return next()"> </a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="map" class="map">
+
+        </section>
+
+        <footer id="footer" class="footer">
+        </footer>
+
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <!-- <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js" ></script> -->
+        <script src="js/slider3d.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

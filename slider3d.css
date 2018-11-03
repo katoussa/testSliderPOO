@@ -1,0 +1,50 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+.slider{
+width: 1000px;
+margin: 2em auto;
+}
+
+.slide {
+	width: 1000px;
+	height: 650px;
+}
+
+.btn-container{
+  width: 250px;
+  margin: 0.5em auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn{
+  height: 75px;
+  width: 75px;
+  display: inline-block;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.btn:hover{
+  transform: scale(1.1);
+}
+
+.nextBtn{
+  background: url(img/next.png) no-repeat center;
+}
+
+.prevBtn{
+  background: url(img/prev.png) no-repeat center;
+}
+
+.pauseBtn{
+  background: url(img/pause.png) no-repeat center;
+}
+
+.playBtn{
+  background: url(img/play.png) no-repeat center;
+}
+
